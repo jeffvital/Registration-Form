@@ -56,11 +56,12 @@
       >
       <fieldset>
         <label for="profile-picture"
-          >Upload a profile picture: <input id="profile-picture" type="file"
+          >Upload a profile picture:
+          <input name="file" id="profile-picture" type="file"
         /></label>
         <label for="age"
           >Input your age (years):
-          <input id="age" type="number" min="13" max="120"
+          <input name="age" id="age" type="number" min="13" max="120"
         /></label>
         <label for="referrer">
           How did yout hear about us?
@@ -74,7 +75,13 @@
         >
         <label for="bio"
           >Provide a bio:
-          <textarea name="" id="bio" cols="30" rows="3" placeholder="I like coding on the beach..."></textarea>
+          <textarea
+            name="bio"
+            id="bio"
+            cols="30"
+            rows="3"
+            placeholder="I like coding on the beach..."
+          ></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Submit" />
