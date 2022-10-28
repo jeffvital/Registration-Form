@@ -24,6 +24,7 @@ form {
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding: 2em;
 }
 
 fieldset {
@@ -67,4 +68,12 @@ input[type="submit"] {
   margin: 0 auto;
   height: 2em;
   font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  margin: 1em auto;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
 }
